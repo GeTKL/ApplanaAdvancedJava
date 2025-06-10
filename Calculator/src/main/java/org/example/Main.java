@@ -22,5 +22,7 @@ public class Main {
 
         double result = firstDigit + secondDigit;
         System.out.printf("%.4f", result);
+
+        scanner.close();
     }
 }
