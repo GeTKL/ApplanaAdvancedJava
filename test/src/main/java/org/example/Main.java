@@ -34,4 +34,29 @@ public class Main {
             default: System.out.println("default");
         }
     }
+
+    public static void massive(){
+        /*
+        int intArray[];
+        String[] strArray;
+        int[] multiarr[];
+         */
+
+        /*
+
+        intArray = new int[2];
+        strArray = new String[3];
+        multiarr = new int[2][3];
+
+        for(int i = 0; i < intArray.length; i++){
+            intArray[i] = i + 5; // инициализация
+        }
+        intArray[0] = 10; // переинициализация
+
+         */
+
+        int intArray[] = {0, 1};
+        String[] strArray = {"Summer", "Winter"};
+        int multiArray[][] = { {0,1}, {3,4} };
+    }
 }
