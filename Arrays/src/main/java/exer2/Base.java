@@ -7,6 +7,8 @@ import exer2.box.IceCream;
 
 public class Base {
     public static void boxArray() {
+        double sum = 0;
+        double weight = 0;
         Candy candy1 = new Candy("Shipuchka", 27.5, 120.0, false);
         Doughnut doughnut1 = new Doughnut("BananaSmuzi", 80.2, 129.99, "Banana");
 
@@ -19,7 +21,10 @@ public class Base {
 
         Box [] staff = {candy1, doughnut1, iceCream1, iceCream2};
         for (Box someBox: staff) {
+            sum += someBox.getPrice();
+            weight += someBox.getWeight();
             System.out.println(someBox.toString());
         }
+        System.out.println("Total price gift = " + sum + "\nTotal weight gift = " + weight);
     }
 }
