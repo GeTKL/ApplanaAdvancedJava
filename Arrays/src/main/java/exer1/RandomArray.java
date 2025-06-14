@@ -1,9 +1,9 @@
-package org.example;
+package exer1;
 
 import java.util.Random;
 
-public class Main {
-    public static void main(String[] args) {
+public class RandomArray {
+    public static void array() {
         Random rand = new Random();
         int min = 0, max = 0;
         int swapMin = 0, swapMax = 0, swap = 0;
