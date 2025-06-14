@@ -5,6 +5,11 @@ import exer2.box.Candy;
 import exer2.box.Doughnut;
 import exer2.box.IceCream;
 
+/**
+ * @Author GeT
+ * <p>Основной метод, сюда ввод идет для обычного конструктора и пустого конструктора (iceCream2 в пустой конструктор).</p>
+ * В цикле идет получение значения для каждого элемента в массиве (цены и веса) и сложение их для общего вывода
+ */
 public class Base {
     public static void boxArray() {
         double sum = 0;

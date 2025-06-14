@@ -1,5 +1,8 @@
 package exer2.box;
 
+/**
+ * Класс, который наследуется другими для последующего вывода информации о подарке
+ */
 public abstract class Box {
     private String name;
     private Double weight;
@@ -7,6 +10,11 @@ public abstract class Box {
 
     public Box(){}
 
+    /**
+     * @param name Обязательный параметр - Название
+     * @param weight Обязательный параметр - Вес
+     * @param price Обязателный параметр - цена
+     */
     public Box(String name, Double weight, Double price) {
         this.name = name;
         this.weight = weight;
@@ -38,6 +46,9 @@ public abstract class Box {
     }
 
 
+    /**
+     * @return Метод, который выводит информацию в базовом виде, возможна перезапись
+     */
     @Override
     public String toString() {
         return  "name = '" + name + '\'' +
